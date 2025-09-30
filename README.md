@@ -17,7 +17,7 @@ transformacije (IDFT). Suština postupka je da IDFT transformiše frekvencijski 
 domen. Dakle, kada imamo niz kompleksnih brojeva koji predstavljaju amplitude i faze signala 
 pojedinačnih podnosača u frekvencijskom domenu, IDFT će generisati vremenski signal koji je 
 superpozicija signala svih podnosača.
-
+![Alt text](Untitled.jpg)
 ## Reference
 [1] Shahrokh Hamidi,End-to-End OFDM Simulation in Python for a SISO Communication System,
 https://www.researchgate.net/publication/382795116_End-to-End_OFDM_Simulation_in_Python_for_a_SISO_Communication_System
