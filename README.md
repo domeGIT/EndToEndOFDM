@@ -22,6 +22,5 @@ superpozicija signala svih podnosača.
 [1] Shahrokh Hamidi,End-to-End OFDM Simulation in Python for a SISO Communication System,
 https://www.researchgate.net/publication/382795116_End-to-End_OFDM_Simulation_in_Python_for_a_SISO_Communication_System
 [2] Branislav Todorović, Osnove telekomunikacija, Akademska misao, Beograd, 2021
-[3] David Tse, and Pramod Viswanath, Fundamentals of Wireless Communication, Cambridge 
-        University Press, Cambridge CB2 2RU, UK, 2005
+[3] David Tse, and Pramod Viswanath, Fundamentals of Wireless Communication, Cambridge University Press, Cambridge CB2 2RU, UK, 2005
 [4] Learning DSP Illustrated https://dspillustrations.com/pages/index.html
