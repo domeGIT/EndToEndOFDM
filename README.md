@@ -2,10 +2,10 @@
 ## OFDM
 OFDM (Orthogonal Frequency Division Multiplexing) je ključni element kako 4G (LTE), tako i narednih generacija mobilnih komunikacija, 
 pa ćemo  pružiti osnovne informacije vezane za njega.OFDM se koristi i u tehnologijama 
-kao što su WiMAX i DVB. OFDM je tehnika modulacije koja koristi više paralelnih podnosača 
+kao što su WiMAX i DVB. OFDM je tehnika modulacije koja koristi više paralelnih podnosioca 
 (subcarrier) koji su međusobno ortogonalni,kako bi se redukovala njihova interferencija.
-Ortogonalnost podnosača znači da je integral proizvoda dva različita podnosača po jednom 
-periodu jednak nuli.Ortogonalni podnosači se obično realizuju korišćenjem  IFFT 
+Ortogonalnost podnosioca znači da je integral proizvoda dva različita podnosioca po jednom 
+periodu jednak nuli.Ortogonalni podnosioci se obično realizuju korišćenjem  IFFT 
 operacije koja predstavlja numerički efikasnu implementaciju Inverzne Diskretne Furijeove 
 transformacije (IDFT).
 ## Osnovno o projektu
