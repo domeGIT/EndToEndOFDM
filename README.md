@@ -1,5 +1,13 @@
 # EndToEndOFDM
-
+## OFDM
+OFDM (Orthogonal Frequency Division Multiplexing) je ključni element kako 4G (LTE), tako i narednih generacija mobilnih komunikacija, 
+pa ćemo  pružiti osnovne informacije vezane za njega.OFDM se koristi i u tehnologijama 
+kao što su WiMAX i DVB. OFDM je tehnika modulacije koja koristi više paralelnih podnosača 
+(subcarrier) koji su međusobno ortogonalni,kako bi se redukovala njihova interferencija.
+Ortogonalnost podnosača znači da je integral proizvoda dva različita podnosača po jednom 
+periodu jednak nuli.Ortogonalni podnosači se obično realizuju korišćenjem  IFFT 
+operacije koja predstavlja numerički efikasnu implementaciju Inverzne Diskretne Furijeove 
+transformacije (IDFT).
 ## Osnovno o projektu
 U ovom projektu modelovan je kompletan OFDM sistem koji uključuje predajnik, prenosni
 radio kanal i prijemnik. Prikazan je detaljno postupak prenošenja jednog OFDM bloka
@@ -18,18 +26,7 @@ se najpre demodulacija i ADC konverzija. Zatim se eliminišu ciklični prefiksi,
 digitalni signal  zatim primenjuje brza Furijeova transformacija (FFT) da bi se dobile 
 “frekvencijske“  komponente (QAM simboli) svakog podnosioca. Poslednji korak je demapiranje
 QAM-a kako bi se povratili originalni bitovi podataka.
-## OFDM
-OFDM(Orthogonal Frequency Division Multiplexing) je ključni element kako 4G( LTE), tako i narednih generacija mobilnih komunikacija, 
-pa ćemo  pružiti osnovne informacije vezane za njega.OFDM se koristi i u tehnologijama 
-kao što su WiMAX i DVB.OFDM je tehnika modulacije koja koristi više paralelnih podnosača 
-(subcarrier) koji su međusobno ortogonalni,kako bi se redukovala njihova interferencija.
-Ortogonalnost podnosača znači da je integral proizvoda dva različita podnosača po jednom 
-periodu jednak nuli.Ortogonalni podnosači se obično realizuju korišćenjem  IFFT 
-operacije koja predstavlja numerički efikasnu implementaciju Inverzne Diskretne Furijeove 
-transformacije (IDFT). Suština postupka je da IDFT transformiše frekvencijski u vremenski
-domen. Dakle, kada imamo niz kompleksnih brojeva koji predstavljaju amplitude i faze signala 
-pojedinačnih podnosača u frekvencijskom domenu, IDFT će generisati vremenski signal koji je 
-superpozicija signala svih podnosača.
+
 ![Alt text](Untitled.jpg)
 ## Reference
 [1] Shahrokh Hamidi,End-to-End OFDM Simulation in Python for a SISO Communication System,
