@@ -22,10 +22,10 @@ se vrši pretvaranje digitalnog signala u analogni. Ovaj korak se izvodi pomoću
 konvertera (DAC). Analogni OFDM signal se zatim moduliše na RF noseći signal. Nakon modulacije na 
 RF nosioc, signal se prenosi kroz bežični kanal koji uvodi različite vrste degradacija (feding,
 Doplerov efekat usled relativnog kretanja predajnika i prijemnika, šum). Na strani pijemnika vrši
-se najpre demodulacija i ADC konverzija. Zatim se eliminišu ciklični prefiksi, pa se onda na
-digitalni signal  zatim primenjuje brza Furijeova transformacija (FFT) da bi se dobile 
-“frekvencijske“  komponente (QAM simboli) svakog podnosioca. Poslednji korak je demapiranje
-QAM-a kako bi se povratili originalni bitovi podataka.
+se najpre demodulacija i ADC konverzija (koja nije primenjena u ovom projektu). Zatim se eliminišu
+ciklični prefiksi, pa se onda na digitalni signal  zatim primenjuje brza Furijeova transformacija 
+(FFT) da bi se dobile  “frekvencijske“  komponente (QAM simboli) svakog podnosioca. Poslednji korak
+je demapiranje QAM-a kako bi se povratili originalni bitovi podataka.
 
 ![Alt text](Untitled.jpg)
 ## Reference
