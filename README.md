@@ -27,7 +27,7 @@ signal  zatim primenjuje brza Furijeova transformacija (FFT) da bi se dobile  â€
 komponente (QAM simboli) svakog podnosioca. Poslednji korak je demapiranje QAM-a kako bi se 
 povratili originalni bitovi podataka.
 
-![Alt text](ofdm.jpg)
+![Alt text](ofdm_system.jpg)
 ## Reference
 [1] Shahrokh Hamidi,End-to-End OFDM Simulation in Python for a SISO Communication System,
 https://www.researchgate.net/publication/382795116_End-to-End_OFDM_Simulation_in_Python_for_a_SISO_Communication_System
