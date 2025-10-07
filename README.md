@@ -16,16 +16,16 @@ Niz bitova se dovodi na ulaz sistema. Ovaj niz se zatim deli u blokove odgovaraj
 veličine za QAM modulaciju. Svaki blok bitova predstavlja QAM simbol. QAM simboli se 
 raspoređuju na različite OFDM podnosioce. Svaki podnosioc prenosi jedan QAM simbol.Sledeći 
 korak je primena IFFT na skup QAM simbola za generisanje OFDM signala u vremenskom domenu.
-Zatim se ciklični prefiks dodaje na početak svakog OFDM bloka u vremenskom domenu.OFDM signal
-u vremenskom domenu treba sa se moduliše na radio-frekvencijski (RF) noseći signal. Prethodno
+Zatim se ciklični prefiks dodaje na početak svakog OFDM bloka u vremenskom domenu. Zatim
 se vrši pretvaranje digitalnog signala u analogni. Ovaj korak se izvodi pomoću digitalno-analognog 
-konvertera (DAC). Analogni OFDM signal se zatim moduliše na RF noseći signal. Nakon modulacije na 
-RF nosioc, signal se prenosi kroz bežični kanal koji uvodi različite vrste degradacija (feding,
-Doplerov efekat usled relativnog kretanja predajnika i prijemnika, šum). Na strani pijemnika vrši
-se najpre demodulacija i ADC konverzija (koja nije primenjena u ovom projektu). Zatim se eliminišu
-ciklični prefiksi, pa se onda na digitalni signal  zatim primenjuje brza Furijeova transformacija 
-(FFT) da bi se dobile  “frekvencijske“  komponente (QAM simboli) svakog podnosioca. Poslednji korak
-je demapiranje QAM-a kako bi se povratili originalni bitovi podataka.
+konvertera (DAC). Analogni OFDM signal se zatim moduliše na RF noseći signal (poslednja dva koraka
+nisu implementirana u ovom projektu ). Nakon toga se signal  prenosi kroz bežični kanal koji uvodi 
+različite vrste degradacija (feding, Doplerov efekat usled relativnog kretanja predajnika i 
+prijemnika, šum). Na strani pijemnika vrši se najpre demodulacija i ADC konverzija (koja nije 
+primenjena u ovom projektu). Zatim se eliminišu ciklični prefiksi, pa se onda na digitalni 
+signal  zatim primenjuje brza Furijeova transformacija (FFT) da bi se dobile  “frekvencijske“
+komponente (QAM simboli) svakog podnosioca. Poslednji korak je demapiranje QAM-a kako bi se 
+povratili originalni bitovi podataka.
 
 ![Alt text](ofdm.jpg)
 ## Reference
