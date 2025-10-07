@@ -27,7 +27,7 @@ ciklični prefiksi, pa se onda na digitalni signal  zatim primenjuje brza Furije
 (FFT) da bi se dobile  “frekvencijske“  komponente (QAM simboli) svakog podnosioca. Poslednji korak
 je demapiranje QAM-a kako bi se povratili originalni bitovi podataka.
 
-![Alt text](Untitled.jpg)
+![Alt text](ofdm.jpg)
 ## Reference
 [1] Shahrokh Hamidi,End-to-End OFDM Simulation in Python for a SISO Communication System,
 https://www.researchgate.net/publication/382795116_End-to-End_OFDM_Simulation_in_Python_for_a_SISO_Communication_System
